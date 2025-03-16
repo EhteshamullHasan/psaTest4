@@ -9,7 +9,9 @@ public class Test4Application {
 	public static void main(String[] args) {
 		int x = 100;
 		int y = 200;
+
 		System.out.println(x+y);
+		System.out.println("hello world");
 		SpringApplication.run(Test4Application.class, args);
 	}
 
